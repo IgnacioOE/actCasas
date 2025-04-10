@@ -35,8 +35,6 @@ export const casas: House[]=[
 
 export class FakeService {
     async getHouses(tipo: string, precioMin: number, precioMax: number): Promise<House[]> {
-        
-        
         return casas;
     }
     
